@@ -20,9 +20,9 @@ A beginner-friendly website that converts a plain-English question into a SQL qu
 6. Add `GEMINI_API_KEY` with your own Gemini API key as the value.
 7. Redeploy the site after adding the environment variable.
 
-Get an API key from Google AI Studio: https://aistudio.google.com/app/apikey
+Get an API key from Google AI Studio: https://sql-plain-english.netlify.app
 
-## Security
+## Security](https://sql-plain-english.netlify.app/)
 
 - Do not place the real Gemini API key in `script.js`, HTML, or any public GitHub file.
 - Use the Netlify environment variable `GEMINI_API_KEY`; the serverless function reads it on the server.
